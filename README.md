@@ -6,6 +6,8 @@ This is just a quick project to test out watch faces and ideas.
 
 As custom fonts are not supported by fitbit atm [fitfont](https://github.com/gregoiresage/fitfont) is used.
 
+NOTE: Just a quick FYI some assets e.g. the logo will be left over from another project of mine. They arn't actually for this :P
+
 ## Current Screenshots
 Just mostly testing embedding images in github but also just to make a quick preview (ill try to keep it up to date)
 
