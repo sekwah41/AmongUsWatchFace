@@ -4,6 +4,8 @@ The current project setup is copied off my other program (That I didn't finish).
 
 This is just a quick project to test out watch faces and ideas.
 
+As custom fonts are not supported by fitbit atm [fitfont](https://github.com/gregoiresage/fitfont) is used.
+
 ## Current Screenshots
 Just mostly testing embedding images in github but also just to make a quick preview (ill try to keep it up to date)
 
@@ -22,7 +24,7 @@ This took me a bit longer than it should have to find. Take a look at https://de
 
 
 ### To connect the debugger
-run `npm debug` then `connect phone` and `connect device` (though make sure they are not connected to any other processes e.g. Fitbit studio)
+run `yarn debug` then `connect phone` and `connect device` (though make sure they are not connected to any other processes e.g. Fitbit studio)
 
 To install the project then run `build` then `install` or use `bi` to do both in one command.
 
