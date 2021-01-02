@@ -30,7 +30,8 @@
   },
   "scripts": {
     "build": "fitbit-build",
-    "debug": "fitbit"
+    "debug": "fitbit",
+    "gen-fonts": "npx fitfont-generate fonts/AmaticSC-Bold.ttf 150 0123456789: && npx fitfont-generate fonts/AmaticSC-Bold.ttf 20 amp"
   },
   "dependencies": {
     "fitfont": "^1.3.3"
