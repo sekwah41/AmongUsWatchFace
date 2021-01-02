@@ -1,14 +1,10 @@
 /*
  * Entry point for the watch app
  */
-import document from "document";
-import { gettext } from "i18n";
+import clock from "clock";
 
-let demotext = document.getElementById("demotext");
-//demotext.text = gettext('hello_world');
+clock.granularity = "minutes"; // seconds, minutes, or hours
 
-let testarc = document.getElementById("testarc");
-
-setTimeout(() => {
-    testarc.animate("enable");
-}, 5000);
+clock.addEventListener("tick", (evt) => {
+    // tick every minute
+});

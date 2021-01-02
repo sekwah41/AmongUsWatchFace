@@ -1,5 +1,5 @@
 {
-  "name": "fitbit-productivity-timer",
+  "name": "fitbit-amongus-clocks",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
@@ -7,10 +7,11 @@
     "@fitbit/sdk": "~5.0.1",
     "@fitbit/sdk-cli": "^1.7.3"
   },
+  "author": "Sekwah",
   "fitbit": {
-    "appUUID": "450b04a7-02ce-480b-83ad-113b16016d83",
-    "appType": "app",
-    "appDisplayName": "Pomodoro",
+    "appUUID": "a37ef455-f4b1-4da9-9a6d-5683afcdc774",
+    "appType": "clockface",
+    "appDisplayName": "AmongUs",
     "wipeColor": "#2196f3",
     "iconFile": "resources/icon.png",
     "requestedPermissions": [
