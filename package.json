@@ -1,5 +1,5 @@
 {
-  "name": "fitbit-amongus-clocks",
+  "name": "fitbit-amongus-watch-face",
   "version": "0.1.0",
   "private": true,
   "license": "UNLICENSED",
@@ -11,7 +11,7 @@
   "fitbit": {
     "appUUID": "a37ef455-f4b1-4da9-9a6d-5683afcdc774",
     "appType": "clockface",
-    "appDisplayName": "AmongUs",
+    "appDisplayName": "AmongUsWatchFace",
     "wipeColor": "#2196f3",
     "iconFile": "resources/icon.png",
     "requestedPermissions": [

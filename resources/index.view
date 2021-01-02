@@ -2,6 +2,9 @@
   <mask id="mask">
     <rect x="0" y="0"  width="100%" height="100%" />
   </mask>
+  <mask id="transmask">
+    <rect x="-24" y="-24"  width="49" height="49" />
+  </mask>
   <svg mask="#mask">
     <g id="slowLayer">
       <animateTransform attributeType="translate"
@@ -30,11 +33,19 @@
       <circle cx="73%" cy="36%" r="4" fill="white" />
       <circle cx="-27%" cy="36%" r="4" fill="white" />
     </g>
+    <g transform="translate(0%, 50%)">
+      <g transform="scale(1.1)">
+        <animateTransform attributeType="translate"
+                          from="-25-20%" to="120% + 25" begin="load" dur="11" repeatCount="indefinite"/>
+        <animateTransform attributeType="rotate"
+                          from="0" to="360" begin="load" dur="7" repeatCount="indefinite"/>
+        <image x="-25" y="-25" width="50" height="50" href="tumblyboismall.png" />
+      </g>
+    </g>
     <use href="#fitfont" x="50%" y="50%-20" fill="white" id="amongUsTime">
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
-      <use href="#fitfont-char"/>
-      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>      <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
     </use>
     <use href="#fitfont" x="50%" y="50%+70" fill="white" id="amongUsAMPM">

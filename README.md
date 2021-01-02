@@ -1,4 +1,4 @@
-Among Us Watch Face/Faces
+Among Us Watch Face
 ==========
 The current project setup is copied off my other program (That I didn't finish). Just need to swap it over.
 
