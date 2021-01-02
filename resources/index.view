@@ -6,4 +6,8 @@
     <use href="#fitfont-char"/>
     <use href="#fitfont-char"/>
   </use>
+  <use href="#fitfont" x="50%" y="50%+90" fill="white" id="amongUsAMPM">
+    <use href="#fitfont-char"/>
+    <use href="#fitfont-char"/>
+  </use>
 </svg>
