@@ -26,9 +26,16 @@ clock.granularity = "minutes"; // seconds, minutes, or hours
 
 clock.addEventListener("tick", (evt) => {
     let hours = evt.date.getHours();
+    let mins = evt.date.getMinutes();
     if (hours > 12) {
         hours -= 12;
+        timeAMPM.text = "PM";
     }
-    timeFont.text = `${hours}:${evt.date.getMinutes()}`;
-    timeAMPM.text = 'AM';
+    else {
+        timeAMPM.text = "AM";
+    }
+    if(mins < 10) {
+        mins = `0${mins}`;
+    }
+    timeFont.text = `${hours}:${mins}`;
 })

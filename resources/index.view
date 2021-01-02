@@ -10,4 +10,19 @@
     <use href="#fitfont-char"/>
     <use href="#fitfont-char"/>
   </use>
+  <g id="slowLayer">
+    <animateTransform attributeType="translate"
+                      from="0%" to="100%" begin="load" dur="13" repeatCount="indefinite"/>
+    <circle cx="10%" cy="50%" r="2" fill="white" />
+    <circle cx="-90%" cy="50%" r="2" fill="white" />
+
+    <circle cx="80%" cy="10%" r="2" fill="white" />
+    <circle cx="-20%" cy="10%" r="2" fill="white" />
+
+    <circle cx="70%" cy="70%" r="2" fill="white" />
+    <circle cx="-30%" cy="70%" r="2" fill="white" />
+
+    <circle cx="65%" cy="40%" r="2" fill="white" />
+    <circle cx="-35%" cy="40%" r="2" fill="white" />
+  </g>
 </svg>
