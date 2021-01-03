@@ -42,14 +42,26 @@
         <image x="-25" y="-25" width="50" height="50" href="tumblyboismall.png" />
       </g>
     </g>
-    <use href="#fitfont" x="50%" y="50%-20" fill="white" id="amongUsTime">
+    <use href="#fitfont" x="50%" y="50%" fill="white" id="amongUsTime">
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
     </use>
-    <use href="#fitfont" x="50%" y="50%+70" fill="white" id="amongUsAMPM">
+    <use href="#fitfont" x="50%" y="50%+90" fill="white" id="amongUsAMPM">
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+    </use>
+    <use href="#fitfont" x="50%" y="50%-90" fill="white" id="amongUsDate">
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
+      <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
       <use href="#fitfont-char"/>
     </use>
